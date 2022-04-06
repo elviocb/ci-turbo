@@ -8,6 +8,7 @@ export default function Docs() {
       <h1>Docs XXXXX</h1>
       <h1>Docs XXXXX</h1>
       <h1>Docs XXXXX</h1>
+      <h1>Changes Same Commit DOCS</h1>
       <Button />
     </div>
   )
