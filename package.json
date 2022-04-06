@@ -10,11 +10,14 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "release": "turbo run release"
   },
   "devDependencies": {
     "prettier": "^2.5.1",
-    "turbo": "latest"
+    "turbo": "latest",
+    "semantic-release": "^19.0.2",
+    "semantic-release-monorepo": "^7.0.5"
   },
   "engines": {
     "npm": ">=7.0.0",

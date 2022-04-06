@@ -1,0 +1,7 @@
+{
+  "branches": [
+    "staging",
+    "main"
+  ],
+  "extends": "semantic-release-monorepo"
+}
