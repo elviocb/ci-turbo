@@ -9,8 +9,8 @@ export default function Docs() {
       <h1>Docs</h1>
       <h1>Docs</h1>
       <h1>Docs</h1>
-      <h1>Docs</h1>
       <Button />
+      <h1>Docs</h1>
       <Button />
     </div>
   )
