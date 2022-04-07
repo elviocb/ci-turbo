@@ -2,7 +2,7 @@ name: Act on release created
 
 on:
   release:
-    types: [published]
+    types: [created]
 
 jobs:
   build:

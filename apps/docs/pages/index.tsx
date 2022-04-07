@@ -5,6 +5,7 @@ export default function Docs() {
     <div>
       <h1>Docs</h1>
       <h1>Docs</h1>
+      <h1>Docs</h1>
       <Button />
     </div>
   )
