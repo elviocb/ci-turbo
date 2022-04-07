@@ -1,7 +1,10 @@
 {
   "branches": [
-    "staging",
-    "main"
+    "main",
+    {
+      "name": "staging",
+      "prerelease": true
+    }
   ],
   "extends": "semantic-release-monorepo",
   "repositoryUrl": "https://github.com/elviocb/ci-turbo",
