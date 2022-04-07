@@ -3,7 +3,7 @@
     "main",
     {
       "name": "staging",
-      "prerelease": true
+      "prerelease": "beta"
     }
   ],
   "extends": "semantic-release-monorepo",
