@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    if: ${{ github.event.release.prerelease == 'true' && startsWith(github.event.release.tag_name, 'docs-') }}
     name: Generate build
     runs-on: ubuntu-latest
     env:
