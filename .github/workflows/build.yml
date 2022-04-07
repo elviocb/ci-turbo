@@ -2,7 +2,7 @@ name: Act on release created
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   build:
@@ -18,3 +18,14 @@ jobs:
         run: |
           echo $RELEASE_VERSION
           echo ${{ env.RELEASE_VERSION }}
+          echo ${{ github.event.release.tag_name }}
+  debug:
+    name: Debug
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump env
+        run: env | sort
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"          
